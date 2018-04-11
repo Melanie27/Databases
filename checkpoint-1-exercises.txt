@@ -1,0 +1,45 @@
+
+
+1. Given the values table below, what data types do each of these values represent?
+
+A Clockwork Orange - String
+43 - Integer
+09/02/1945 - String
+98.7 - Float
+15.99 - Float
+
+2. Explain when a database would be used. Explain when a text file would be used
+Use a database when there are at least two instances of the program running at the same time. This will avoid the issue of having data overwritten or the file that contains the data being locked for some period of time. A database makes it easy to search for specific date, can handle multiple applications accessing to data and the data will persist even after the application has been cleared. But, the database files are not readable by human beings. A text file is useful when there is a small amount of data that will rarely (if ever) change.
+
+3. Describe one difference between SQL and other programming languages
+SQL is a declarative language, not a procedural language.  As a declarative language, SQL gets results from data, updates data and creates new structures to store data in with simple commands rather than with abstractions like classes and functions.  
+
+4. In your own words, explain how the pieces of a database system fit together at a high level. 
+Databases contain and organize data that will needs to be stored, calculated, manipulated or retrieved. They allow applications to update based on user input or changing values on the company end. By dividing table content into columns, rows and individual cells, a database allows for simple retrieval and update of individual chunks of information. 
+
+5. Explain the meaning of table, row, column and value
+A database table holds all of the content. Columns define what the data represents, rows make up a complete conceptual unit (like a single purchase record), and the value is the data that populates a given cell.
+
+6. List three data types that can be used in a table. String, integer, float.
+
+7. SELECT two columns, date and amount, FROM the payments table. From those results, SELECT one column, amount, FROM the payments table if the amount is greater than 500.  Select all columns FROM the payments table when the payee's name is "Mega Foods."
+
+8. a. SELECT email, signup 
+
+      FROM users
+
+      WHERE name = "DeAndre Data";
+
+
+   b. SELECT userid
+
+      FROM users
+
+      WHERE email = "aleesia.algorithm@uw.edu";
+
+
+   c. SELECT *
+
+      WHERE userid = "4";
+
+
